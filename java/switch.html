@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oprations with Switch case</title>
+</head>
+<body>
+
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col-md-3">
+                    <label for="first">Enter your First Number</label>
+                    <input type="text" name="" id="first">
+                </div> <br>
+
+                <div class="col-md-3">
+                    <label for="second">Enter your Second Number</label>
+                    <input type="text" name="" id="second">
+                </div> <br>
+
+
+                <div class="col-md-3">
+                    <label for="oprator">Enter your First Number</label>
+                    <!-- we gave select an id because the execution case hold the certain values which 
+                    we define in value section of option  -->
+                    <select name="" id="oprator"> 
+                        <option value="+">Addtion</option>
+                        <option value="-">Submission</option>
+                        <option value="*">Multiplication</option>
+                        <option value="/">Division</option>
+                    </select>
+                </div> <br>
+
+                <div class="col-md-3">
+                    <label for="result">Result</label>
+                    <input type="text" name="" id="result">
+                </div> <br>
+
+                <div>
+                    <button type="button" onclick="opration();">Execute</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </div>
+        </form>
+       
+    </div>
+    <script src="js/app2.js"></script>
+   
+</body>
+</html>

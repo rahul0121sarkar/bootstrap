@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Compilation</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JavaExtention</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#color"
+                >Property</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#msg">Notification</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Excersice
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#notepad">Writing</a></li>
+                <li><a class="dropdown-item" href="#">Zoom in</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://media.istockphoto.com/id/1322201622/photo/digitally-enhanced-shot-of-multiple-lines-of-computer-code.jpg?s=1024x1024&w=is&k=20&c=96j4WVZ9rDHw7_ltKvq7hbidslgz5jLefmHyL2Is-C0="
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://media.istockphoto.com/id/1309893470/vector/man-developer-programmer-working-on-web-development-in-virtual-program-computer-laptop.jpg?s=1024x1024&w=is&k=20&c=aWkDojScb9A_2jAfwoTEurWw0TfXdIios-Vdh9ZLK8c="
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://media.istockphoto.com/id/1284717170/vector/3d-vector-conceptual-illustration-of-software-development-programming-languages-learning.jpg?s=1024x1024&w=is&k=20&c=m7iP7KvhAcTN95m7N_tZrHFxz7RufpxCLEMdiKyTIzY="
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid" id="text">
+      <form action="">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="card alg" id="color">
+              <div class="card-header">
+                <label for="area">Enter your Text Here</label>
+              </div>
+
+              <div class="card-body">
+                <textarea
+                  name=""
+                  id="demo"
+                  class="form-control"
+                  cols="30"
+                  rows="10"
+                  placeholder="type here for change to apply ....."
+                ></textarea>
+
+                <select name="" id="myselect" class="form-control" onchange="colorchange();">
+                  <option value="Red">Red</option>
+                  <option value="Green">Green</option>
+                  <option value="Blue">Blue</option>
+                  <option value="Navy">Navy</option>
+                </select>
+              </div>
+
+              <div class="card-footer">
+                <!-- <button
+                  type="button"
+                  onclick="colorchange();"
+                  class="btn btn-outline-primary"
+                >
+                  Execute
+                </button> -->
+                <button type="reset" class="btn btn-outline-danger">
+                  Reset
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    
+        <div class="container-fluid" id="msg">
+            <div class="card notific">
+                <div class="card-header">Notification</div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <label for="noti">Enter Notification</label>
+                                <input type="text" name="" id="" class="form-control" placeholder="Notifications here......." onchange="inch(this.value);"><br>
+                                <button type="submit" class="btn btn-outline-primary">Publish</button>
+                            </div> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="container-fluid" id="notepad">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="card note">
+                        <div class="card-header">Notepad</div>
+                        <div class="card-body">
+                            <label for="myInput">Write your notes</label>
+                            <input type="text" name="" id="myInput" class="form-control" onchange="note();"><br>
+                            <textarea name="" id="display" cols="30" rows="10" class="form-control" placeholder="notes will be display here ...."></textarea>
+                        </div>
+
+                        <div class="card-footer">
+                            <button type="reset" class="btn btn-outline-danger">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            
+                <p>Created by <b>Rahul Sarkar</b></p>
+            
+        </div>
+    
+
+    <script src="js/webjava.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

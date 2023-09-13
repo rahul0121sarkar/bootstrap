@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+
+    <!-- <select name="" id="myselect" onchange="colorchange();"> -->
+    <select name="" id="myselect" onchange="change();">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="Blue">Blue</option>
+    <option value="Navy">Navy</option>
+    </select>
+
+    <p>When you select a new color a function will triggered which outputs the value of the selected color.</p>
+
+    <p id="demo"></p>
+
+    <p>Modify the text in the input field, then click outside the field to fire the onchange event </p>
+
+    Enter some text: <input type="text" name="" id="" value="Hello" onchange="inpchange(this.value)">
+
+    <p>Write something in the text field to trigger a function. </p>
+
+    <input type="text" name="" id="myInput" oninput="inputfun();">
+    
+    <p id="inpdm"></p>
+
+
+    <p>How to dynamically update a slider value with oninput.</p>
+
+    <input type="range" name="" id="" oninput="range(this.value);">
+    <p id="slide"></p>
+
+
+
+    <script src="js/demo.js"></script>
+</body>
+</html>

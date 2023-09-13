@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.alg{
+    text-align: center;
+    margin-top: 59px;
+    margin-bottom: 59px;
+    margin-left: 113px;    
+    
+}
+
+.notific{
+    margin-top: 33px;
+   
+
+}
+
+.note{
+    margin-left: 113px; 
+    margin-top: 33px;
+    margin-bottom: 33px;
+
+}
+
+#text{
+    background-image: url("https://www.w3docs.com/uploads/media/default/0001/05/4482fe09d95a0be765154b9cefff5e07f7fc32ff.png");
+}
+
+#msg{
+   background-color: black;
+
+}
+
+#notepad{
+    background-image: url("https://img.freepik.com/free-vector/flat-cms-concept-illustrated_23-2148925795.jpg?w=740&t=st=1694419137~exp=1694419737~hmac=310248905527cab036b627d3952ec6b03693dbbc5cc5bff6e6cda22164b79506");
+    background-size: cover;
+}
+
+.footer{
+    /* margin-top: 18px; */
+    height: 33px;
+   background-color: black;
+   color: white;
+    text-align: center;
+}
